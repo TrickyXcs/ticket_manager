@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "support-bot"
+version = "0.1.0"
+description = ""
+authors = ["Roman Shnyt <trickyxcs@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.14.0"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+alembic = "^1.14.0"
+environs = "^11.1.0"
+betterlogging = "^1.0.0"
+aiogram-dialog = "^2.2.0"
+redis = "^5.2.0"
+asyncpg = "^0.30.0"
+sqlalchemy-continuum = "^1.4.2"
+bcrypt = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
